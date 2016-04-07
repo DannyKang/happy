@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "CentOS-7.0"
+  config.vm.box = "CentOS-6.4"
   config.vm.network "private_network", ip: "192.168.10.20"
 
   # Disable automatic box update checking. If you disable this, then
